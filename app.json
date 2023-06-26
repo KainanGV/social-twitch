@@ -4,7 +4,7 @@
   "expo": {
     "name": "stream.data",
     "scheme": "stream.data",
-    "slug": "streamData",
+    "slug": "streamdata",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +25,12 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFF"
       }
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "37ae2c43-8c9a-473c-a97a-f2bec172fd75"
+      }
+    },
+    "owner": "kainangv"
   }
 }

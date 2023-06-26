@@ -10,7 +10,7 @@ import { Home } from '../src/screens/Home';
 
 export function Routes() {
   const theme = useTheme();
-  const { user } = useAuth();
+  const { user, signIn } = useAuth();
 
   return (
     <View style={{ backgroundColor: theme.colors.black, flex: 1 }}>
